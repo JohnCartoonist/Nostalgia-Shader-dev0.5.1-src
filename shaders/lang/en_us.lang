@@ -1,0 +1,67 @@
+option.INFO=Nostalgia Shader by RRe36
+value.INFO.0=§ev0.5
+
+screen.shading=Shading and Lights
+
+option.shadowMapResolution=Shadow Resolution
+option.s_shadowLuminance=Shadow Illumination
+option.torchlightLuma=Torchlight Luma
+option.minLightLum=Minimum Light Multiplier
+
+option.setCurve=Curve
+option.setBrightness=Brightness
+option.setContrast=Contrast
+
+option.setSaturation=Saturation
+option.setSaturation.comment=Set the overall image saturation.
+
+screen.cloud=Clouds
+
+option.s_cloudStyle=Cloud Style
+value.s_cloudStyle.0=Vanilla
+value.s_cloudStyle.1=Story Mode
+option.s_cloudAltitude=Altitude
+option.s_cloudSamples=Samples
+option.s_cloudLightingQuality=Lighting Quality
+value.s_cloudLightingQuality.0=Low
+value.s_cloudLightingQuality.1=High
+option.s_cloudEdgeSmoothing=Edge Sharpness
+
+option.setAmbientOcclusion=Ambient Occlusion
+option.setAOQuality=Ambient Occlusion Quality
+value.setAOQuality.0=Low
+value.setAOQuality.1=Medium
+value.setAOQuality.2=High
+
+option.s_fogMode=Fog Mode
+option.s_fogSamples=Volumetric Fog Samples
+value.s_fogMode.0=Off
+value.s_fogMode.1=Simple
+value.s_fogMode.2=Volumetric
+option.s_fogStart=Fog Start (Simple Fog only)
+option.s_fogExp=Fog Exponent (Simple Fog only)
+option.s_fogMieD=Mie Density
+option.s_fogMieD.comment=Set the intensity of the mie scattering on fog caused by sunlight. Only affects volumetric fog.
+
+option.s_fogRaylD=Rayleigh Density
+option.s_fogRaylD.comment=Set the intensity of the rayleigh scattering caused by skylight. Only affects volumetric fog.
+
+option.setBloom=Bloom
+option.setMotionblur=Motionblur
+option.temporalAA=Temporal AA
+option.setWindEffect=Wind Effects
+
+option.s_usePBR=Use Texture PBR
+option.s_usePBR.comment=Enable the use of the resourcepack pbr texture attributes. Only labPBR is supported atm.
+option.s_useTexAO=Use Texture AO
+option.s_useTexEmission=Use Texture Emission
+
+option.s_useNormal=Texture Normal
+option.setNormalFlatten=Flatten Normal
+
+option.expMethod=Auto Exposure
+option.expMethod.comment=Set the auto exposure mode.
+value.expMethod.0=Temporal
+value.expMethod.1=Image Based
+value.expMethod.2=Legacy
+value.expMethod.3=Dummy (don't use)
